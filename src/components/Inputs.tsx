@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, Button, Form, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import Output from '../engine.js'
+import Output from '../engine.js'
 import Instructions from './Instructions.js';
 
 interface InputData {
@@ -36,8 +36,8 @@ function Inputs(props: InputData) {
         setResult('')
     }
     function output() {
-        // const outputResult = Output([props.gridX[props.gridX.length - 1], props.gridY[props.gridY.length - 1]], positionsData, instructionsData)
-        setResult('')
+        const outputResult = Output([props.gridX[props.gridX.length - 1], props.gridY[props.gridY.length - 1]], positionsData, instructionsData)
+        setResult(outputResult)
     }
     function getFinalInput(){
         let result = ""
