@@ -2,9 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Required node.js version v11.10.1v or higher 
+
+Required yarn version v1.22.11v or higher
+
+After cloning the project, follow available scripts below:
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all the required libraries in the development mode.
+
 
 ### `yarn start`
 
@@ -14,10 +25,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
